@@ -29,4 +29,81 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 
 
+//
+користувач_1@LAPTOP-PQC6T06K UCRT64 /c/home-work-4 (master)
+$ git add .
 
+користувач_1@LAPTOP-PQC6T06K UCRT64 /c/home-work-4 (master)
+$ git commit -m "Initial commit: add HTML/CSS demo page, README, and .gitignore"
+[master (root-commit) 8be5beb] Initial commit: add HTML/CSS demo page, README, and .gitignore
+ 5 files changed, 260 insertions(+)
+ create mode 100644 .env.txt
+ create mode 100644 .gitignore.txt
+ create mode 100644 README.md
+ create mode 100644 index.html
+ create mode 100644 style.css
+
+
+
+
+користувач_1@LAPTOP-PQC6T06K UCRT64 /c/home-work-4 (master)
+$ git add .
+
+користувач_1@LAPTOP-PQC6T06K UCRT64 /c/home-work-4 (master)
+$ git commit -m "Initial commit: add HTML/CSS demo page, README, and .gitignore"
+[master (root-commit) 8be5beb] Initial commit: add HTML/CSS demo page, README, and .gitignore
+ 5 files changed, 260 insertions(+)
+ create mode 100644 .env.txt
+ create mode 100644 .gitignore.txt
+ create mode 100644 README.md
+ create mode 100644 index.html
+ create mode 100644 style.css
+
+користувач_1@LAPTOP-PQC6T06K UCRT64 /c/home-work-4 (master)
+$ git branch -M main
+
+користувач_1@LAPTOP-PQC6T06K UCRT64 /c/home-work-4 (main)
+$ git remote add origin https://github.com/mailsvladimir7r-2/home-work-4
+
+користувач_1@LAPTOP-PQC6T06K UCRT64 /c/home-work-4 (main)
+$ git remote -v
+origin  https://github.com/mailsvladimir7r-2/home-work-4 (fetch)
+origin  https://github.com/mailsvladimir7r-2/home-work-4 (push)
+
+користувач_1@LAPTOP-PQC6T06K UCRT64 /c/home-work-4 (main)
+$ git push -u origin main
+
+Unhandled Exception: System.TypeInitializationException: The type initializer for 'SkiaSharp.SKImageInfo' threw an exception. ---> System.DllNotFoundException: Unable to load library 'libSkiaSharp'.
+   at SkiaSharp.LibraryLoader.LoadLocalLibrary[T](String libraryName)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at SkiaSharp.SkiaApi.sk_colortype_get_default_8888()
+   at SkiaSharp.SKImageInfo..cctor()
+   --- End of inner exception stack trace ---
+   at Avalonia.Skia.SkiaPlatform.Initialize(SkiaOptions options)
+   at Avalonia.AppBuilder.SetupUnsafe()
+   at GitCredentialManager.UI.AvaloniaUi.<>c__DisplayClass8_1.<ShowWindowAsync>b__1(CancellationToken appCancelToken)
+   at GitCredentialManager.UI.Dispatcher.DispatcherJob.Execute(CancellationToken ct)
+   at GitCredentialManager.UI.Dispatcher.DispatcherJobQueue.Run()
+   at GitCredentialManager.Program.Main(String[] args)
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/mailsvladimir7r-2/home-work-4/'
+
+користувач_1@LAPTOP-PQC6T06K UCRT64 /c/home-work-4 (main)
+$
+
+користувач_1@LAPTOP-PQC6T06K UCRT64 /c/home-work-4 (main)
+$
+
+
+
+
+////
+user
+
+mailsvladimir7r-2
+mailsvladimir7r-2
+
+
+1111
+1111
